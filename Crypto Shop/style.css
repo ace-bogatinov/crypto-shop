@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    background-color: #ebebeb;
+}
+
+.radius{
+    border-radius: 10px;
+}
+
+.hover-btn{
+    bottom: 2%;
+    opacity: 0;
+}
+
+    .card:hover .hover-btn{
+        transition: 0.5s;
+        opacity: 1;
+    }
+
+.margin{
+    margin-top: 85%;
+}

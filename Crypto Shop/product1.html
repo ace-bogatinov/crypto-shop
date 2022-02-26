@@ -1,0 +1,294 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product name</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Crypto Shop</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    </form>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Section-->
+    <section class="text-dark p-5 text-center">
+        <div class="container">
+            <div class="row align-content-between">
+                <div class="col-md h-100">
+                    <div class="card bg-light">
+                        <div class="card-body text-center justify-content-center m-1">
+                            <div class="ecommerce-gallery">
+                                <div class="row py-3 shadow-5">
+                                    <div class="col-12 mb-1">
+                                        <div class="lightbox">
+                                            <img src="Images/p1s1.jpg" alt="Gallery image 1"
+                                                class="ecommerce-gallery-main-img active w-100" />
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mt-1">
+                                        <img src="Images/p1s2.jpg"
+                                            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/14a.webp"
+                                            alt="Gallery image 1" class="active w-100" />
+                                    </div>
+                                    <div class="col-3 mt-1">
+                                        <img src="Images/p1s3.jpg"
+                                            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/12a.webp"
+                                            alt="Gallery image 2" class="w-100" />
+                                    </div>
+                                    <div class="col-3 mt-1">
+                                        <img src="Images/p1s4.jpg"
+                                            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/13a.webp"
+                                            alt="Gallery image 3" class="w-100" />
+                                    </div>
+                                    <div class="col-3 mt-1">
+                                        <img src="Images/p2s1.png"
+                                            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/15a.webp"
+                                            alt="Gallery image 4" class="w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-light middle">
+                        <div class="card-body text-start m-1">
+                            <h3>
+                                Product Name 1
+                            </h3>
+                            <hr>
+                            <ul class="list-group">
+                                <li class="list-group-item border-0 text-secondary fs-6">Code: 2134567890234</li>
+                                <li class="list-group-item border-0 text-secondary fs-6">Warranty: 24 months</li>
+                            </ul>
+                            <hr>
+                            <ul class="list-group">
+                                <li class="list-group-item border-0">Specification 1</li>
+                                <li class="list-group-item border-0">Specification 2</li>
+                                <li class="list-group-item border-0">Specification 3</li>
+                                <li class="list-group-item border-0">Specification 4</li>
+                                <button onClick="scrollTo()">
+                                    <li class="list-group-item border-0">View full Specification</li>
+                                </button>
+                            </ul>
+                            <hr>
+                            <p class="mt-3 "><i class="bi bi-check-circle h3 text-success margin"> The product is in
+                                    stock</i>
+                            </p>
+                            <div class="review">
+                                <i class="bi bi-star h4"></i>
+                                <i class="bi bi-star h4"></i>
+                                <i class="bi bi-star h4"></i>
+                                <i class="bi bi-star h4"></i>
+                                <i class="bi bi-star h4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <table class="table table-borderless w-100">
+                                <tbody class="fs-3">
+                                    <tr>
+                                        <td class="text-start">Price:</td>
+                                        <td class="text-end">&euro;800</td>
+                                    </tr>
+                                    <br>
+                                </tbody>
+                            </table>
+                            <hr>
+                            <button class="btn btn-lg fs-3 btn-outline-warning text-primary margin">
+                                <i class="bi bi-cart h1"> </i>
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="gallery">
+                <div class="row mt-4">
+                    <h3>Other Products</h3>
+                    <div class="col-md">
+                        <div class="card bg-light">
+                            <div class="card-body m-1">
+                                <a href="product1.html" target="_blank"><img class="img-fluid w-75 radius"
+                                        src="Images/p1s1.jpg"></a>
+                                <h5 class="card-title">HP</h5>
+                                <p>&euro;800</p>
+                                <br>
+                                <a href="product1.html" target="_blank"
+                                    class="btn btn-outline-warning text-primary btn-sm hover-btn"><b>View
+                                        Product</b></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-light">
+                            <div class="card-body m-1">
+                                <a href="product1.html" target="_blank"><img class="img-fluid w-75 radius"
+                                        src="Images/p1s2.jpg"></a>
+                                <h5 class="card-title">HP</h5>
+                                <p>&euro;800</p>
+                                <br>
+                                <a href="product1.html" target="_blank"
+                                    class="btn btn-outline-warning text-primary btn-sm hover-btn"><b>View
+                                        Product</b></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-light">
+                            <div class="card-body m-1">
+                                <a href="product1.html" target="_blank"><img class="img-fluid w-75 radius"
+                                        src="Images/p1s3.jpg"></a>
+                                <h5 class="card-title">HP</h5>
+                                <p>&euro;800</p>
+                                <br>
+                                <a href="product1.html" target="_blank"
+                                    class="btn btn-outline-warning text-primary btn-sm hover-btn"><b>View
+                                        Product</b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list d-sm-flex flex-column bg-warning mt-5 p-3 radius position-relative">
+                    <label for="" id="description"
+                        class="description fs-3 text-start w-100 radius p-3 bg-light text-dark">
+                        <h3>Description</h3>
+                        <p class="ms-sm-5 fs-6">The PCI Riser 009S Express Extender Cable is meant for cryptocurrency
+                            mining, this riser is manufactured with 2 LED-indicators which will show disturbance in
+                            power
+                            supply and show if the riser works correctly. The 009s riser has a 6-pin connection and is
+                            provided with a coating which makes sure your GPU stays cooled which will increase your
+                            revenue
+                            significantly. The gold plated usb adapter and pci x1 slot makes a more stable connection
+                            which
+                            will benefit your mining profits. There is also another LED-indicator on the pci x1 slot
+                            which
+                            allows you to see if the riser is installed correctly. This riser is meant for
+                            cryptocurrency
+                            mining with a graphics processing unit.
+                            <br>
+                            Suitable for 6-pin powering, SATA powering and Molex powering.
+                            <br>
+                            Provided:
+                            <br>
+                            - 60cm usb 3.0 cable
+                            <br>
+                            - PCI-Express x1 connection
+                            <br>
+                            - 6 pin SATA connection cable.
+                            <br>
+                            <br>
+                            This riser is the successor of the 006, 006C, 007S, 008C and 008S risers
+                            <br>
+                            <br>
+                            WE DO NOT RECOMMEND POWERING RISERS VIA SATA. RISERS CAN ASK 75W, WHILE SATA CAN ONLY HANDLE
+                            UP
+                            TO 52W.
+                        </p>
+                    </label>
+                    <label for="" class="additional fs-3 text-start w-100 radius p-3 mt-1 bg-light text-dark">
+                        <h3>Additional Information</h3>
+                        <br>
+                        <table class="table table-borderless ms-sm-5 fs-6 w-75">
+                            <tbody>
+                                <tr>
+                                    <td>Weight</td>
+                                    <td>110g</td>
+                                </tr>
+                                <tr>
+                                    <td>Dimensions</td>
+                                    <td>185 x 128 x 28 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>EAN</td>
+                                    <td>8719992172405</td>
+                                </tr>
+                                <tr>
+                                    <td>Brand</td>
+                                    <td>Mining Wholesale</td>
+                                </tr>
+                                <tr>
+                                    <td>Packaging</td>
+                                    <td>Retail Packaging</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </label>
+                </div>
+            </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-1 bg-primary text-light text-center position-relative">
+        <div class="container">
+            <div class="row align-content-between">
+                <div class="col-md text-md-start">
+                    <h3>Contact Information</h3>
+                    <p class="fs-5">Phone: 123-456-789</p>
+                    <p class="fs-5">Email: someone@email.com</p>
+                </div>
+                <div class="col-md text-md-end">
+                    <h3>Socials</h3>
+                    <a href="https://www.facebook.com" class="bi bi-facebook text-light mx-1 h3" target="_blank"></a>
+                    <a href="https://www.instagram.com" class="bi bi-instagram text-light mx-1 h3" target="_blank"></a>
+                </div>
+            </div>
+            <p class="lead fs-6">Copyright &copy; 2022 Crypto Shop</p>
+            <!--Bring back up-->
+            <a href="#" class="position-absolute  bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1 text-light"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function scrollTo() {
+            var elem = document.getElementById("description");
+            elem.scrollIntoView();
+        }
+    </script>
+</body>
+
+</html>
